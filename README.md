@@ -3,12 +3,15 @@
 Folder Structure:
 ```
 myapp/
-    app.py
-    Dockerfile
-    requirements.txt
-    kubernetes/
-        deployment.yaml
-        service.yaml
+├── app.py
+├── Dockerfile
+├── kubernetes/
+│   ├── deployment.yaml
+│   └── service.yaml
+├── deploy.sh
+└── dags/
+    └── myapp_deploy_dag.py
+
 ```
 
 You can then make the script executable with:
